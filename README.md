@@ -2,7 +2,9 @@
 Python2 Compiler Tool
 
 # Version 1.1
-3 more Compile has been added to it. Last 2 of them is the Hardest
+☢️ 3 more Encryption Added. Last 2 of them is bit hard <br>
+☢️ Update feature Available <br>
+☢️ Directory Problem Solved <br>
 
 # Installation 
 $ apt update; apt upgrade -y <br>
