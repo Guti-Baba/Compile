@@ -16,6 +16,7 @@ $ cd Compile <br>
 $ python2 gb_enc <br>
 
 # Screenshot
-![Screenshot_20210715-160506~2](https://user-images.githubusercontent.com/79633162/125781694-496792c9-c35f-410f-8039-e6928c6b6c3a.png)
+![Screenshot_20210715-180958~2](https://user-images.githubusercontent.com/79633162/125785979-e4b49848-e466-47ce-9360-4f790722fa6a.png)
+
 
 
