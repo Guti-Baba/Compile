@@ -1,0 +1,82 @@
+# *-* coding: utf-8 *-*
+import os, time, sys
+from os import system as s
+from time import sleep
+
+#colors
+r='\033[1;91m' #red
+g='\033[2;92m' #green
+y='\033[1;93m' #yellow
+b='\033[1;94m' #blue
+m='\033[1;95m' #magenta/purple
+c='\033[1;96m' #cyan
+w='\033[1;97m' #white
+
+def cls():
+        s('clear')
+cls()
+
+ban='''
+\033[1;97m	       .-=+++=:
+	     .+@@@@@@@@@@*:
+	    =@@@#-.  .:*@@@*
+	   +@@%:         #@@*
+	  .@@@-           @@@:
+	  :@@@.           %@@-
+	  :@@@.           %@@-
+\x1b[1;30m	::=@@@=:::::::::::@@@+::
+\033[1;92m	#@@@@@@@@@@@@@@@@@@@@@@@
+	#@@@@@@@@@@@@@@@@@@@@@@@
+	#@@@@@@@@@@@@@@@@@@@@@@@
+	#@@@@@@@@@#  =@@@@@@@@@@
+	#@@@@@@@@@@:.%@@@@@@@@@@
+	#@@@@@@@@@@#*@@@@@@@@@@@
+	#@@@@@@@@@@@@@@@@@@@@@@@
+	#@@@@@@@@@@@@@@@@@@@@@@@
+\x1b[1;30m	.+####################*-
+
+\033[1;94m########## [ =================== ] #######################
+
+Author  : Guti Baba
+Channel : https://youtube.com/channel/UCNgDON6Y_VhCdCk1fc7o2lA
+Page    : https://www.facebook.com/Guti-Baba-115116477282480
+Version : 1.2
+Tool    : Python2 and Python3 Compiler
+
+########## [ =================== ] #######################
+
+'''
+
+def credit(x):
+	for symbol in ban+'\n':
+		sys.stdout.write(symbol)
+		sys.stdout.flush()
+		sleep(0.001)
+credit(ban)
+
+#Option
+op='''
+\033[1;93mChoose Compiler:
+
+1. Python2
+2. Python3
+
+'''
+
+def option(y):
+	for words in op+'\n':
+		sys.stdout.write(words)
+		sys.stdout.flush()
+		sleep(0.0005)
+option(op)
+
+choose=int(input(c+'[+] '+y+'Choose Option: '))
+
+if choose==1:
+	s('python2 py2')
+elif choose==2:
+	s('python py3')
+
+else:
+	sleep(1)
+	print(r+'Invalid Input !')
